@@ -22,12 +22,14 @@ html, body
 ul
 {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 #container
 {
 	margin: 0 auto;
-	width: 1170px;
+	width: 1000px;
 }
 
 /*------ Header ------*/
@@ -38,7 +40,7 @@ header h1
 
 .logo
 {
-	padding-left: 320px;
+	padding-left: 242px;
 }
 
 .instructions h2
@@ -59,6 +61,157 @@ header h1
 	display: block;
 	font-size: 22px;
 	text-align: center;
+	text-decoration: none;
+}
+
+/*------ Question Section ------*/
+.wuQuiz {
+	display: none;
+}
+
+.whichWu
+{
+	background-color: #ffd708;
+	border-radius: 5px;
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.currentWu
+{
+	color: #000000;
+	padding-left: 20px;
+}
+
+.checkWu
+{
+	background: url(images/btn_wu.png) 0 0 no-repeat;
+	height: 119px;
+	width: 160px;
+}
+
+.checkWu a 
+{
+	position: relative;
+    top: 45px;
+    left: 37px;
+    color: #ffd708;
+    text-decoration: none;
+}
+
+.checkWu a.wrong 
+{
+	position: relative;
+    top: 46px;
+    left: 65px;
+    color: #ffd708;
+    text-decoration: none;
+}
+
+.checkWu a.right 
+{
+	position: relative;
+    top: 48px;
+    left: 57px;
+    color: #ffd708;
+    text-decoration: none;
+}
+
+.memberMugShot 
+{
+	display: block;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	height:100%;
+}
+
+.wuImageBlock 
+{
+	float: left;
+	position: relative;
+	width: 500px;
+	min-width: 300px;
+	height: 400px;
+	margin: 20px 10px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.wuBlock 
+{
+	background-color: rgba(0, 0, 0, 0.27);
+	box-shadow: 2px 2px 2px black;
+}
+
+#rza 
+{
+	background-image: url('images/rza.jpg');
+}
+
+#gza 
+{
+	background-image: url('images/gza.jpg');
+}
+
+#uGod 
+{
+	background-image: url('images/uGod.jpg');
+}
+
+#mastaKilla 
+{
+	background-image: url('images/mastaKilla.jpg');
+}
+
+#inspectahDeck 
+{
+	background-image: url('images/inspectahDeck.jpg');
+}
+
+#methodMan 
+{
+	background-image: url('images/methodMan.jpg');
+}
+
+#raekwon 
+{
+	background-image: url('images/raekwon.jpg');
+}
+
+#ghostFace 
+{
+	background-image: url('images/ghostFace.jpg');
+}
+
+#odb 
+{
+	background-image: url('images/odb.jpg');
+}
+
+.enterThe36Chambers
+{
+	color: #000000;
+	float: left;
+	padding: 20px 114px 0 20px;
+}
+
+.validate
+{
+	float: left;
+}
+
+.nextWu a
+{
+	color: #000000;
+	margin-left: -95px;
+	text-decoration: none;
+}
+
+.startOver a
+{
+	color: #ffd708;
 	text-decoration: none;
 }
 

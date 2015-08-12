@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<title>Wu-tang Quiz</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-	<div id="container">
+	<div id= "container">
 		<header>
 			<h1>How well do you know the</h1>
 			<img class= "logo" src="images/wuTangLogo.png">
@@ -21,14 +21,52 @@
 				<a href="#">click to begin</a>
 			</div>
 		</div>
-		<!-- Questions -->
-		<div class= "wuQuiz"></div>
-		<!-- Answer Options -->
-		<div class= "validate"></div>
-		<!-- Question Count -->
-		<div class= "currentPosition"></div>
-		<!-- Final Score -->
-		<div class= "anotherWu"></div>
+		<div class= "wuQuiz">
+			<div class= "whichWu">
+				<h2 class= "currentWu"></h2>
+				<div class= "wuOptions">
+					<div class= "wuImageBlock wuBlock">
+						<div class= "memberMugShot"></div>
+					</div>
+					<ul class="enterThe36Chambers">
+						<li>
+							<label for="wuChoice0">
+								<input type= "radio" name= "wuMember" class= "wuChoice0" value = "1">
+								<span class="option0"></span>
+							</label>
+						</li>
+						<li><label for="wuChoice1">
+							<input type="radio" name="wuMember" class="wuChoice1" value = "2">
+							<span class="option1"></span></label>
+						</li>
+						<li>
+							<label for="wuChoice2">
+								<input type="radio" name="wuMember" class="wuChoice2" value = "3">
+								<span class="option2"></span>
+							</label>
+						</li>
+						<li>
+							<label for="wuChoice3">
+								<input type="radio" name="wuMember" class="wuChoice3" value = "4">
+								<span class="option3"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class= "validate">
+					<div class= "checkWu">
+						<a href="#">Check answer</a>
+					</div>
+					<div class= "nextWu">
+						<a href="#">next question</a>
+					</div>
+				</div>
+			</div>
+			<div class= "currentPosition"></div>
+			<div class= "startOver">
+				<a href="#">Try Again?</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
